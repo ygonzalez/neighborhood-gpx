@@ -9,6 +9,11 @@ from network.algorithms.eulerian import hierholzer
 from libs.tools import *
 from libs.gpx_formatter import TEMPLATE, TRACE_POINT
 
+import geopandas as gpd
+
+st.write(f"Geopandas Version: {gpd.__version__}")
+st.write(f"OSMnx Version: {ox.__version__}")
+
 # Configuration
 ox.config(use_cache=True, log_console=True)
 CUSTOM_FILTER = (
