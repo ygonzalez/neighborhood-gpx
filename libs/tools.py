@@ -1,7 +1,7 @@
 import networkx as nx
 import numpy as np
 from itertools import combinations
-from network import Network
+from network.network import Network
 from heapq import heappop, heapify
 
 
