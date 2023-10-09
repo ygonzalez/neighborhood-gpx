@@ -1,4 +1,3 @@
-git+https://github.com/matejker/network.git@0.0.2
 git+https://github.com/gboeing/osmnx.git@main#egg=osmnx
 networkx>=2.4
 geopandas==0.14.0
