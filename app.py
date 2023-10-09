@@ -5,8 +5,8 @@ import networkx as nx
 import osmnx as ox
 from datetime import datetime
 from network import Network
-# from network.algorithms.eulerian import hierholzer
-from network.network.algorithms.eulerian import hierholzer
+from network.algorithms.eulerian import hierholzer
+# from network.network.algorithms.eulerian import hierholzer
 from libs.tools import *
 from libs.gpx_formatter import TEMPLATE, TRACE_POINT
 
